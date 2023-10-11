@@ -121,7 +121,7 @@ a {
 
 @media (min-width: 1440px) {
    .container {
-      height: 98%;
+      height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -130,7 +130,9 @@ a {
    .result-summary {
       display: flex;
       flex-direction: row;
-      width: 48%;
+      width: 38.3rem;
+      /* width: 48%; */
+      height: 26.5rem;
       border-radius: 1.5rem;
       box-shadow: .1rem 1rem 2rem 1px hsla(241, 100%, 89%, .6);
    }
